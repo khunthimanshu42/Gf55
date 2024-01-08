@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+        }
+
+        .main img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .login {
+            border-radius: 10px;
+            backdrop-filter: blur(20px);
+            background-color: rgba(239, 239, 239, .1);
+            box-shadow: 0px 0px 20px 1px rgb(50, 45, 45);
+            position: absolute;
+            margin-top: 10%;
+            height: 450px;
+            width: 350px;
+            /* border: 1px solid white; */
+        }
+
+        .login h1 {
+            margin-top: 40px;
+            text-align: center;
+            color: white;
+        }
+
+        .login .email {
+            margin-left: 30px;
+            color: white;
+        }
+
+        .email .phone {
+            margin-top: -10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            height: 40px;
+            width: 300px;
+            background-color: rgb(155, 155, 155, 0.4);
+        }
+
+        .phone p {
+            font-size: 13px;
+            margin-left: 10px;
+            color: white;
+        }
+
+        .main .circle {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+        }
+
+        .circle .circle1 {
+            background: linear-gradient(#1845ad, #23a2f6);
+            margin-left: -170px;
+            margin-top: 60px;
+        }
+
+        .circle .circle2 {
+            background: linear-gradient(to right, #ff512f, #f09819);
+            margin-left: 160px;
+            margin-top: 220px;
+        }
+
+        .password {
+            color: white;
+            margin-left: 30px;
+        }
+
+        .password .password1 {
+            margin-top: -10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            height: 40px;
+            width: 300px;
+            background-color: rgb(155, 155, 155, 0.4);
+        }
+
+        .password1 p {
+            letter-spacing: .3px;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+
+        .main .box1 {
+            margin-top: 30%;
+            margin-left: -245px;
+            position: absolute;
+            border-radius: 5px;
+            width: 298px;
+            height: 50px;
+            background-color: white;
+        }
+
+        .main .box1 p {
+            font-weight: 600;
+            text-align: center;
+            color: black;
+        }
+
+        .social {
+            position: absolute;
+            margin-top: 35%;
+            display: flex;
+            align-items: center;
+            color: #e5e5e5;
+        }
+
+        .social div {
+            background: rgba(255, 255, 255, 0.27);
+            width: 120px;
+            height: 25px;
+            border-radius: 3px;
+            padding: 5px 10px 10px 5px;
+            color: #e5e5e5;
+            text-align: center;
+        }
+
+        .social .Facebook {
+            margin-left: 25px;
+        }
+
+        .social a {
+            margin-left: 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .social i {
+            margin-top: 5px;
+            font-size: 20px;
+           color: white;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="main">
+        <!-- <img src="https://m.media-amazon.com/images/I/A1oG9ehGcFL._AC_UL960_QL65_.jpg" alt=""> -->
+        <div class="login">
+            <h1>Login Here</h1>
+
+            <div class="email">
+                <h5>Username</h5>
+
+                <div class="phone">
+                    <p>Email or Phone</p>
+                </div>
+            </div>
+            <div class="password">
+                <h5>Password</h5>
+
+                <div class="password1">
+                    <p>password</p>
+                </div>
+            </div>
+        </div>
+        <div class="circle">
+            <div class="circle1 circle"></div>
+            <div class="circle2 circle"></div>
+        </div>
+        <div class="box">
+            <div class="box1">
+                <p>Log in</p>
+            </div>
+        </div>
+        <div class="social">
+            <div class="google"><i class="fab fa-google"></i><a href="#">Google</a></div>
+            <div class="Facebook"><i class="fab fa-facebook"></i><a href="#">Facebook</a></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
